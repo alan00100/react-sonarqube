@@ -1,0 +1,5 @@
+sonar-scanner \
+  -Dsonar.projectKey=sam \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://13.232.105.22:9000 \
+  -Dsonar.login=635e88e391a6fa87dfca3ea4ccc700a48609af56
