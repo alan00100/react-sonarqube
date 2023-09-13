@@ -1,7 +1,7 @@
 const scanner = require('sonarqube-scanner');
 scanner(
     {
-        serverUrl: "http://:9000/",
+        serverUrl: "http://localhost:9000/",
         options: {
             "sonar.login": "admin",
             "sonar.password": "sonar",
